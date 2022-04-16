@@ -1,0 +1,19 @@
+#include#include <iostream>
+
+int main()
+{ int t;
+std::cin>>t;
+int i;
+bool prime= true;
+for(i=2; i<t; i++){
+  if(t%i==0){
+ prime=false;
+ break;
+  }
+}
+if(prime==true){
+  std::cout<<t<<" tn parze"<<std::endl;
+} else{
+  std::cout<<"tivy parz che"<<std::endl;
+}
+
